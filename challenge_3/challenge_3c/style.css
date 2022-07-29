@@ -15,4 +15,25 @@ div div {
 
 #big_div {
 	border: 5px solid black;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
+#sub_div1{
+	display: flex;
+	justify-content: center;
+	align-items: flex-start;
+}
+
+#sub_div2{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#sub_div3{
+	display: flex;
+	justify-content: center;
+	align-items: flex-end;
 }
